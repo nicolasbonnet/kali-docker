@@ -7,4 +7,4 @@ ADD ./devops/ssh/ /root/.ssh/
 RUN cd /root/ && chmod 700 .ssh/ && chmod 600 .ssh/* && chmod 644 .ssh/*.pub
 RUN cd /root/APP && wget https://github.com/skavngr/rapidscan/archive/refs/heads/master.zip && unzip master.zip && rm master.zip
 
-WORKDIR /root
+WORKDIR /root/APP/rapidscan-master
