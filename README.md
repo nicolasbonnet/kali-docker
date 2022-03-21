@@ -5,3 +5,11 @@
    1. put these files to /devops/ssh (used in Dockerfile)
 2. launch Makefile commande "build"
 3. Launch Makefile command "start" to take command of kali docker to realise some pen-tests commands
+
+## Example of use of skavngr/rapidscan
+Juste launch this command:
+`python3 rapidscan.py example.com`
+You will have two files:
+- RS-Vulnerability-Report => rapport of vulnerability found
+- RS-Debug-ScanLog => debug scripts ?
+More details here: https://github.com/skavngr/rapidscan
